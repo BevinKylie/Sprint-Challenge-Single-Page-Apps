@@ -29,19 +29,22 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+Benefits of using client side routing uses  less data is processed, and routing between views is generally faster.
+Smooth transitions and animations between views are easier to implement.
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ]  Create a forked copy of this project.
-- [ ]  Add TL as collaborator on GitHub.
-- [ ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ]  Implement the project on this branch, committing changes regularly.
-- [ ]  Push commits: `git push origin <firstName-lastName>`.
-- [ ]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
-- [ ]  **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
-- [ ]  **RUN** `yarn start` or `npm start` to fire up your React application.
+- [ x]  Create a forked copy of this project.
+- [ x]  Add TL as collaborator on GitHub.
+- [ x]  Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [ x]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [ x]  Implement the project on this branch, committing changes regularly.
+- [ x]  Push commits: `git push origin <firstName-lastName>`.
+- [ x]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
+- [ x]  **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
+- [ x]  **RUN** `yarn start` or `npm start` to fire up your React application.
 
 ### Exceeded rate limits?
 
@@ -120,8 +123,8 @@ Complete search component to your list views.
 
 > Follow these steps to complete your project:
 
-- [ ]  Submit a Pull Request to merge `<firstName-lastName>` branch into master (student's repo).
-- [ ]  Add your TL as a Reviewer on the Pull Request.
+- [ x]  Submit a Pull Request to merge `<firstName-lastName>` branch into master (student's repo).
+- [ x]  Add your TL as a Reviewer on the Pull Request.
 - [ ]  TL then will count the HW as done by merging the branch into master.
 
 <!-- TLs: NOTE: use resources to coach, or share over zoom - avoid sharing entire solution folder. Share preview links if available. -->
