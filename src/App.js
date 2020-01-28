@@ -1,19 +1,31 @@
 import React from "react";
 import {Route} from "react-router-dom";
 import Header from "./components/Header.js";
-import WelcomePage from "./components/WelcomePage";
-import CharacterList from "./components/CharacterList";
-import Character from "./components/Character";
-import SearchForm from "./components/SearchForm";
+import CharacterList from './components/CharacterList.js';
+import EpisodeList from "./components/EpisodeList.js";
+import LocationList from './components/LocationsList.js';
+import Welcome from './components/WelcomePage';
+import './index.css';
+import styled from "styled-components";
 
 export default function App() {
+  const Image = styled.img;
+    width: 50%;
+    margin-left: 25%;
+}
+
+{
   return (
-    <main>
-      <Header />
-      <SearchForm />
-      <Route exact path="/" component={WelcomePage} />
-      <Route exact path="/list" component={CharacterList} />
-      <Route path='/results/:id' component={Character} />
-    </main>
+
+    <div>
+      <Image src='https://upload.wikimedia.org/wikipedia/commons/b/b1/Rick_and_Morty.svg'/>
+      <header className='navigation'>
+      </header>
+      <Route exact path='/' component={Welcome}/>
+      <Route path='/characters' component={CharacterList}/>
+      <Route path='/locations' component={LocationList}/>
+      <Route path='/episodes' component={EpisodeList}/>
+    </div>
+
   );
 }
